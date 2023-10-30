@@ -1,0 +1,284 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+.Hm2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Hm2 li {   
+    display: flex;
+    margin-left: 80px; 
+}
+
+
+.Hm2 ul {
+    list-style-type: none; 
+    display: flex;
+    justify-content: space-between; 
+}
+ul li p  {
+    margin-left: 50px;
+    padding: 0 20px 10px;
+}
+
+ul li p:hover {
+    border-bottom: 3px solid rgba(0, 0, 255, 0.114);
+}
+.Hm3 ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.Hm3 li {
+    margin: 0;
+    padding: 0;
+    margin-right: 10px; /* Atur jarak antara elemen-elemen */
+}
+
+.Hm3 img {
+    max-width: 90%; /* Agar gambar tidak melebihi lebar kontainer */
+}
+.Hm4 {
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 50px;
+}
+.Hm5 {
+   margin-left: 80px;
+}
+h1 {
+    color: #42484D;
+    margin-left: 70px;
+    margin-top: 30px;
+}
+.hm6-text {
+    margin-left: 70px;
+    margin-top: 20px;
+    color: #42484D;
+    margin-bottom: 20px
+}
+.Hm7 {
+float: right;
+margin-top: -170px;
+margin-right: 100px;
+}
+h2 {
+    color: #555a5e;
+    font-size: 25px;
+    margin-left: 70px;
+    margin-top: 50px;
+    padding-bottom: 30px;
+}
+.Hm9 ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 20px; /* Jarak antar elemen */
+}
+
+.Hm9 li {
+    max-width: 350px; /* Lebar maksimum elemen li */
+    text-align: center; /* Pusatkan elemen li */
+}
+
+.Hm9 img {
+    width: 100%; /* Gambar akan memenuhi lebar maksimum */
+}
+
+.Hm9 h3, .Hm9 h4, .Hm9 h5 {
+    font-weight: bold;
+}
+
+.Hm9 p {
+
+}
+
+footer{
+    margin: 20px 100px;
+}
+
+.container-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.start-text{
+    text-align:start !important;
+}
+
+.satu{
+    font-weight: 700;
+    color: #838b91;
+}
+
+.footer-text ul li {
+    margin: 10px 0;
+}
+
+.satu span.dua{
+    color: #42484D;
+}
+
+.icon-footer li i {
+    color: #42484D;
+}
+
+.footer-text .start-text{
+    font-weight: 600;
+}
+
+.container-footer2{
+    background-color: rgba(0, 0, 255, 0.114);
+    padding: 60px 100px;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    align-items: center;
+}
+.text-footer2{
+    font-weight: 600;
+    font-size: 18px;
+    color: #42484D;
+}
+.follow-us{
+    text-align: center;
+}
+
+.icon-sosmed{
+    margin-top: 15px;
+}
+.icon-sosmed i{
+    padding: 8px;
+    font-size: 18px;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    color: #42484D;
+}
+
+.subscribe{
+    text-align: center;
+}
+
+.subscribe h4{
+    margin-bottom: 30px;
+}
+
+.subscribe a{
+    padding: 10px 80px;
+    border-radius: 6px;
+    background-color: white;
+    color: #42484D;
+    border: 1px solid #42484D;
+    transition: all .3s;
+}
+
+.subscribe a:hover{
+    box-shadow: 0 1px 1px 1px rgba(5, 5, 5, 0.114);
+    background-color: rgba(0, 0, 255, 0.114);
+}
+
+.container-footer3{
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.privacy a{
+    color: #555a5e;
+    font-weight: 600;
+    transition: all .3s;
+    padding-bottom: 4px;
+}
+
+.privacy-first{
+    padding-right: 5px;
+    border-right: 2px solid #838b91;
+}
+
+.privacy a:hover{
+    border-bottom: 2px solid #838b91;
+}
+
+
+
+
+
+
+/* biodata */
+  
+  .biodata {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+/* biodata */
+
+
+/* contact */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  form {
+    width: 50%;
+    margin: 0 auto;
+  }
+  
+  label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  select,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type="radio"],
+  input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+/* contact */
